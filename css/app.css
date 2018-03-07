@@ -165,6 +165,12 @@ header {
 .react-bs-table {
 	height: fit-content !important;
 }
+.dashboardTitle {
+  text-align: center;
+}
+.recharts-wrapper {
+  margin: 10px auto;
+}
 /* ================================= 
   MEDIA QUERIES
 ==================================== */

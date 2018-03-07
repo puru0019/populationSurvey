@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter,Route } from 'react-router-dom';
 import Header from '../components/Header';
+import DashBoard from '../components/DashBoard';
 import PopulationContainer from '../components/PopulationContainer';
 import '../css/app.css';
 import '../css/utility.css';
@@ -21,6 +22,7 @@ class App extends React.Component {
             <Route path="/gender" render={()=><PopulationContainer title="Gender Wise Population" data={populationPerGender}/>} />
             <Route path="/race" render={()=><PopulationContainer title="Race Wise Population" data={populationPerRace}/>} />
             <Route path="/income" render={()=><PopulationContainer title="Income Wise Population" data={populationPerIncome}/>}/>
+            <Route path="/dashboard" render={()=><DashBoard title="Dash Board" data={overAllPopulation}/>}/>
           </div>
         </div>
       </BrowserRouter>

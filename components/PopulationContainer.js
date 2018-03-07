@@ -10,7 +10,6 @@ class PopulationContainer extends Component {
   }
   render() {
     const data = this.state.tableData;
-    console.log(data,this.props)
     const cellEditProp = {
       mode: 'click',
       blurToSave: true
