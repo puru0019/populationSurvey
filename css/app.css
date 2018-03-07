@@ -123,6 +123,7 @@ header {
 .main-nav .active {
   color: #fff;
   background: #3b80d1;
+  text-decoration: none;
 }
 
 /* COURSE NAV -------- */
